@@ -89,7 +89,7 @@ def build(app):
     label_random = toga.Label('1. Generating random lottery numbers between 1 and 45', style=Pack(padding=(0, 5)))
     button_random = toga.Button('Generate Random Numbers', on_press=random_lottery_numbers)
     
-    label_predefined = toga.Label('2. Generating random lottery numbers from a predefined list', style=Pack(padding=(0, 5)))
+    label_predefined = toga.Label('2. Generating random lottery numbers from higher probability numbers', style=Pack(padding=(0, 5)))
     button_predefined = toga.Button('Generate Predefined Numbers', on_press=predefined_lottery_numbers)
     
     label_datetime = toga.Label('3. Generating lottery numbers using the current datetime digits', style=Pack(padding=(0, 5)))
